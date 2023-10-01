@@ -70,7 +70,7 @@
     position: relative;
     display: grid;
     grid-template-columns: 1fr;
-    width: 100%;
+    width: 90%;
     object-fit: cover;
     overflow: hidden; 
     align-items: center;
@@ -100,6 +100,7 @@
 .info{
     background: #0e3959;
     padding: 30px;
+    width: 90%;
 }
 .info h3{
     color: #fff;
@@ -148,6 +149,7 @@
 }
 .map{
     padding: 0;
+    width: 90%;
 }
 .map iframe{
     width: 100%;
