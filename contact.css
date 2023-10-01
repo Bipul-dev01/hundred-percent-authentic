@@ -29,6 +29,7 @@
 }
 .box-contact .contact-card img{
     max-width: 600px;
+    max-height: 300px;
     margin: 10px auto;
 } 
 .box-contact .contact-card p{
