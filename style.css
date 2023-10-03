@@ -6,6 +6,7 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
 html{
     scroll-behavior: smooth;
 }
@@ -370,6 +371,10 @@ section .title::before{
     cursor: pointer;
     transition: all 0.3s ease;
 }
+.display img{
+    width: 70px;
+    height: auto;
+} 
 .services .serve-content .card:hover{
     background: crimson;
 }

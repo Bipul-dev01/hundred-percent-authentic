@@ -12,9 +12,11 @@
 .contactUs{
     position: relative;
     width: 100%;
-    padding: 40px 100px;
+    padding: 20px 100px;
     background: linear-gradient(90deg,#0e3959 0%, #0e3959 30%, #03a9f5 30%, #03a9f5 100%);
     max-height: 140vh;
+    margin-top: 100px;
+    padding-top: 80px;
 }
 .contactUs .title-contact{
     display: flex;
@@ -38,9 +40,7 @@
     font-size: 15px;
     font-family:'Poppins', sans-serif ;
     color: black;
- 
 }
-
 .contact-card{
     grid-area: contact-card;
     text-align: center;
@@ -81,9 +81,7 @@
     font-weight: 500;
     font-size: 2em;
     margin-bottom: 8px;
-    margin-top: 25px;
-    
-   
+    margin-top: 25px;  
 }
 .contact h3{
     color: #0e3959;
@@ -129,7 +127,7 @@
 .info .infoBox div a{
     color: #fff;
     text-decoration: none;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 .sci{
     margin-top: 40px;
@@ -161,8 +159,7 @@
     .contactUs{
          background: #03a9f5;
          /* padding: 20px; */
-         max-height: 360vh;
-          
+         max-height: 360vh;         
     }
     .contact-card img{
         max-width: 450px;
@@ -188,15 +185,28 @@
 }
 @media (max-width:468px){
     .contactUs{
-        padding-top: 20px;
+        padding-top: 80px;
         padding-bottom: 20px;
         padding-left: 30px;
         padding-right: 40px;
     }
     .contactUs .title-contact{
         font-size: 1.5em;
+        padding-bottom: 20px !important;
     }
     .contact-card img{
         max-width: 100px;
+    }
+}
+@media (max-width:368px){
+    .box-contact .contact-card{
+        width: 80%;
+    }
+    .info{
+       width: 80%; 
+       /* padding: 10px; */
+    }
+    .map{
+        width: 80%;
     }
 }
