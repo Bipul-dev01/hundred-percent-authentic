@@ -28,6 +28,9 @@ html{
     padding: 15px 0;
     background: crimson;
 }
+.navbar ul .hidden{
+    display: none;
+}
 .navbar .max-width{
     display: flex;
     align-items: center;
@@ -627,7 +630,13 @@ footer span a:hover{
     background-color: rgba(0,0,0,0.4);
     z-index: -10;
   } 
-  
+  .navbar ul .hidden{
+    display: block;
+    font-size: 30px;
+    font-weight: 600;
+    color: crimson;
+    padding: 20px;
+}
     .navbar .menu.active{
         left: 0;
     }
