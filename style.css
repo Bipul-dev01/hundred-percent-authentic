@@ -655,7 +655,7 @@ footer span a:hover{
   } 
   .navbar ul .hidden{
     display: block;
-    font-size: 60px;
+    font-size: 50px;
     /* line-height: 100px; */
     /* font-weight: 600; */
     /* color: crimson; */
@@ -672,7 +672,7 @@ footer span a:hover{
     }
     .navbar .menu li a{
         display: inline-block;
-        margin: 20px 0;
+        margin: 15px 0;
         font-size: 25px;
     }
     .home .home-content .text-2{
